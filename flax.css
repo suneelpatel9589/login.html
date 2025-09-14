@@ -1,0 +1,14 @@
+.container{
+    background-color:yellowgreen;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.container div{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border: 5x solid black;
+    text-align: center;
+    text-transform: uppercase;
+}

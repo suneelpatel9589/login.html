@@ -1,0 +1,25 @@
+.head{
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+    text-decoration:underline;
+    text-decoration-color:red ;
+    text-decoration-style:wavy;  
+     font-family:Georgia;
+    
+
+}
+.para{
+    font-weight: bold;
+    line-height:20px;
+    letter-spacing:30px;
+    color: rgb(20, 39, 251);
+    
+}
+.heading{
+    text-transform:uppercase;
+}
+body{
+
+    background-color:greenyellow;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Myntra Navbar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 30px;
+      background-color: #ffffff;
+      border-bottom: 1px solid #eaeaea;
+    }
+
+    .navbar .logo img {
+      height: 40px;
+    }
+
+    .navbar .nav-links {
+      display: flex;
+      gap: 20px;
+      font-weight: 500;
+    }
+
+    .navbar .nav-links a {
+      text-decoration: none;
+      color: #333;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+
+    .search-bar {
+      flex: 1;
+      margin: 0 40px;
+      position: relative;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 10px 15px;
+      padding-left: 40px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+
+    .search-bar::before {
+      content: '🔍';
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      font-size: 16px;
+    }
+
+    .icons {
+      display: flex;
+      gap: 25px;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .icons div {
+      cursor: pointer;
+    }
+
+    .icons div span {
+      display: block;
+      font-size: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <!-- Logo -->
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Myntra_Logo.png" alt="Myntra Logo">
+    </div>
+
+    <!-- Nav Links -->
+    <div class="nav-links">
+      <a href="#">Men</a>
+      <a href="#">Women</a>
+      <a href="#">Kids</a>
+      <a href="#">Home & Living</a>
+      <a href="#">Beauty</a>
+      <a href="#">Studio</a>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" placeholder="Search for products, brands and more">
+    </div>
+
+    <!-- Icons -->
+    <div class="icons">
+      <div>
+        👤<br><span>Profile</span>
+      </div>
+      <div>
+        ❤️<br><span>Wishlist</span>
+      </div>
+      <div>
+        🛍️<br><span>Bag</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

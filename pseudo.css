@@ -1,0 +1,23 @@
+html{
+    scroll-behavior: smooth;
+}
+.btn:hover{
+    background-color: blue;
+    padding: 8px 12[x]
+    
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+#input::placeholder{
+    color: chartreuse;
+}
+.class::after{
+    content: patel;
+    color: red;
+}
+.hero{
+    background-color: aqua;
+}
